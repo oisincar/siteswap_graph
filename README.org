@@ -1,0 +1,33 @@
+#+TITLE: Siteswap Graph Generator
+
+A generator for siteswap graphs! Can input both a number of objects and a throw
+height, and also just a siteswap and it'll generate the graphviz code needed to
+make that graph!
+
+
+* Full state diagrams
+Here's some examples for graphs of all patterns for a given number of balls:
+
+[[file:images/stateDiag3b5.png]]
+
+[[file:images/stateDiag5b9.png]]
+
+[[file:images/stateDiagallb9.png]]
+
+* Siteswap state diagrams
+For siteswaps, it can produce tables showing the states it goes through.
+9|xxxx____x
+7|xxx___xx_
+5|xx__xxx__
+3|x_xxxx___
+1|xxxxx____
+
+7|x_xx__x
+1|xxx__x_
+4|xx_xx__
+
+As well as graphs of those!
+
+[[file:images/ss97531.png]]
+
+[[file:images/ss66671777161.png]]
